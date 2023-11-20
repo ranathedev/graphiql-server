@@ -1,0 +1,27 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranathedev/graphql-server.git"
+  },
+  "author": "ranathedev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ranathedev/graphql-server/issues"
+  },
+  "homepage": "https://github.com/ranathedev/graphql-server#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.1"
+  }
+}
