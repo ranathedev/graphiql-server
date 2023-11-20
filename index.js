@@ -5,14 +5,10 @@ const resolvers = require('./resolvers')
 
 const app = express()
 
-app.get('/', (req, res) => {
-  res.send('Server is running...')
-})
-
 const rootValue = resolvers
 
 app.use(
-  '/graphql',
+  '/',
   graphqlHTTP({
     schema,
     rootValue,
