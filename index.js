@@ -16,6 +16,6 @@ app.use(
   })
 )
 
-app.listen(4000, () =>
+app.listen(3000, () =>
   console.log(`Server is running here: http://localhost:4000`)
 )
